@@ -3,7 +3,6 @@ import { Route, BrowserRouter, Switch} from 'react-router-dom'
 import Admin from './pages/Admin/admin'
 import Login from './pages/Login/login'
 
-
 class App extends Component{
   render (){
     return (
