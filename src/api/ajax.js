@@ -1,5 +1,4 @@
 import axios from "axios"
-import Qs from 'qs'
 import { message } from 'antd'
 
 function ajax(url, data={}, type='GET'){
@@ -13,7 +12,7 @@ function ajax(url, data={}, type='GET'){
             promise = axios({
                 method: 'post',
                 url: url,
-                data: Qs.stringify(data),
+                data: JSON.stringify(data),
                 headers: {
                     'Content-Type':'application/json'
                 }	
