@@ -3,7 +3,7 @@ module.exports = override(
 fixBabelImports('import', {
 libraryName: 'antd',
  libraryDirectory: 'es',
- style: true, 
+ style: 'less', 
 }), 
 addLessLoader({ 
 javascriptEnabled: true, 
